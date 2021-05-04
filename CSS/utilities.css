@@ -12,14 +12,14 @@
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin: 10px;
-}  
+}
 
 .btn {
     display: inline-block;
     padding: 10px 30px;
     cursor: pointer;
     background-color: var(--primary-color);
-    color:#fff;
+    color: #fff;
     border: none;
     border-radius: 5px;
 }
@@ -33,42 +33,64 @@
     transform: scale(0.98);
 }
 
+
 /* Backgrounds & colored buttons */
 
-.bg-primary, 
+.bg-primary,
 .btn-primary {
     background-color: var(--primary-color);
     color: #fff;
 }
 
-.bg-secondary, 
+.bg-secondary,
 .btn-secondary {
     background-color: var(--secondary-color);
     color: #fff;
 }
 
-.bg-dark, 
+.bg-dark,
 .btn-dark {
     background-color: var(--dark-color);
     color: #fff;
 }
 
-.bg-primary a, 
-.btn-primary a,
-.bg-secondary a, 
-.btn-secondary a,
-.bg-dark a, 
-.btn-dark a {
-    color:#fff;
-}
-
-.bg-light, 
+.bg-light,
 .btn-light {
     background-color: var(--light-color);
     color: #333;
 }
 
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+    color: #fff;
+}
+
+
+/* Text colors */
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.text-light {
+    color: var(--light-color);
+}
+
+
 /* Text sizes */
+
 .lead {
     font-size: 20px;
 }
@@ -84,7 +106,8 @@
 .lg {
     font-size: 3rem;
 }
-.xl{
+
+.xl {
     font-size: 4rem;
 }
 
@@ -92,11 +115,35 @@
     text-align: center;
 }
 
+
+/* Alert */
+
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+}
+
 .flex {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .grid {
@@ -112,7 +159,9 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+
 /*Margin*/
+
 .my-1 {
     margin: 1rem 0;
 }
@@ -153,7 +202,9 @@
     margin: 4rem;
 }
 
+
 /*Padding*/
+
 .py-1 {
     padding: 1rem 0;
 }
@@ -193,5 +244,3 @@
 .p-5 {
     padding: 4rem;
 }
-
-
